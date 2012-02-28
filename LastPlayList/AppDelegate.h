@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FMEngine.h"
+#import "XMLParser.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 

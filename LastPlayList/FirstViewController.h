@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XMLParser.h"
+#import "FMEngine.h"
+#import "CustomCell.h"
+#import "AsyncImage.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    IBOutlet UITableView *table;
+    ArtistModel *artist;
+}
 
 @end
